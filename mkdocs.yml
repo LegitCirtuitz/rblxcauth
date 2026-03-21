@@ -1,28 +1,24 @@
 site_name: Roblox CAuth
-site_url: https://LegitCirtuitz.github.io/rblxcauth/  # ← Move Pages URL here
-
+site_url: https://LegitCirtuitz.github.io/rblxcauth/
 repo_name: Roblox CAuth Project
-repo_url: https://github.com/LegitCirtuitz/rblxcauth  # ← GitHub repo URL, not Pages
-
+repo_url: https://github.com/LegitCirtuitz/rblxcauth
 theme:
   name: material
+  features:                       
+    - content.code.copy
   palette:
     - scheme: default
       primary: indigo
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-    - scheme: slate          # ← Dark mode
+    - scheme: slate
       primary: indigo
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-     features:
-    - content.code.copy
-
 nav:
   - Introduction: index.md
-
 markdown_extensions:
   - admonition
   - pymdownx.superfences
