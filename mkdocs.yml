@@ -7,8 +7,16 @@ repo_url: https://github.com/LegitCirtuitz/rblxcauth  # ← GitHub repo URL, not
 theme:
   name: material
   palette:
-    scheme: default
-    primary: indigo
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate          # ← Dark mode
+      primary: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
 
 nav:
   - Home: index.md
