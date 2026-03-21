@@ -19,6 +19,7 @@ theme:
         name: Switch to light mode
 nav:
   - Introduction: index.md
+  - Fonts: fonts.md
 markdown_extensions:
   - admonition
   - pymdownx.superfences
