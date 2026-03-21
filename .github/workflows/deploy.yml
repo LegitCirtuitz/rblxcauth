@@ -35,6 +35,8 @@ jobs:
         with:
           path: site/
 
+      - run: mkdocs build --clean
+
   deploy:
     environment:
       name: github-pages          # ← This is what links it to Pages
