@@ -1,1 +1,4 @@
 @import "extensions/tabbed.css";
+html {
+  scroll-behavior: smooth;
+}
