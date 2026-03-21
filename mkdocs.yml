@@ -20,3 +20,5 @@ theme:
 
 nav:
   - Introduction: index.md
+markdown_extensions:
+  - admonition
