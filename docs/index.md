@@ -29,3 +29,6 @@ end
 ```
 !!! info
     Remember to put the If Statement inside of the CAuth Function then in the ``mastere`` `if` statement.
+
+!!! danger
+    Be careful when modifying the Client Code! Always check if the code you are running is safe.
