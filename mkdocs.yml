@@ -24,3 +24,5 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.highlight:
       anchor_linenums: true
+extra_css:
+  - assets/css/extensions/extras.css
