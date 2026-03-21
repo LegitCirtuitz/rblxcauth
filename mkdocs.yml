@@ -17,8 +17,14 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+     features:
+    - content.code.copy
 
 nav:
   - Introduction: index.md
+
 markdown_extensions:
   - admonition
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
