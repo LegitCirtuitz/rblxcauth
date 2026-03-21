@@ -1,4 +1,3 @@
-[Roblox]: https://www.roblox.com
 # Introduction #
 Welcome to the **The Roblox CAuth Project**!
 ### About
@@ -32,3 +31,5 @@ end
 
 !!! danger
     Be careful when modifying the Client Code! Always check if the code you are running is safe.
+
+Alternatively, You can refer to [Running Custom Code](customcode.md)
