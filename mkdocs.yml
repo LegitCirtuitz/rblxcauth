@@ -1,10 +1,14 @@
 site_name: Roblox CAuth
+site_url: https://LegitCirtuitz.github.io/rblxcauth/  # ← Move Pages URL here
+
 repo_name: Roblox CAuth Project
-repo_url: https://LegitCirtuitz.github.io/rblxcauth/
+repo_url: https://github.com/LegitCirtuitz/rblxcauth  # ← GitHub repo URL, not Pages
+
 theme:
   name: material
   palette:
     scheme: default
     primary: indigo
+
 nav:
   - Home: index.md
