@@ -21,6 +21,7 @@ theme:
 nav:
   - Introduction: index.md
   - Fonts: fonts.md
+  - Custom Code: customcode.md
 markdown_extensions:
   - admonition
   - pymdownx.superfences
